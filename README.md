@@ -1,2 +1,4 @@
-# gpt3-for-automatic1111-webui
- 
+# gpt-for-automatic1111-webui creates OpenAI API and Stable Diffusion Local Host Interoperability
+Welcome to the repository for the interoperability between OpenAI API and Stable Diffusion Local Host. With this code, you'll be able to seamlessly integrate the two systems, unlocking unlimited new possibilities that can generate unique images forever by right clicking on the "Generate" button and selecting "Generate Forever". 
+
+This code defines a Python script that leverages OpenAI's GPT API to generate prompts for input into the Stable Diffsion system, an AI art generation model. The script processes arguments and a Gradio UI input for the API key. It then sets the API key and defines a text-to-text prompt to be passed to the GPT API. The prompt includes various topics and examples for generating images using Stable Diffusion and results in a list of new prompts for image generation.
